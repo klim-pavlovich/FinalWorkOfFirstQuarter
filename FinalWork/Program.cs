@@ -10,6 +10,7 @@ Console.WriteLine("Введите значения массива через п�
 string[] startArray = CustomArray();
 int nOfCutting = 3;
 string[] finalArray = ArrangeArrayOfElementWithLongLessThatCertainNumber(startArray, nOfCutting);
+PrintArray(finalArray);
 
 // Разделение массива пользователя на отдельные элементы
 string[] CustomArray()
