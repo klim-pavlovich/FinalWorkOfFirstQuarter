@@ -14,3 +14,14 @@ string[] CustomArray()
 {
     return Console.ReadLine().Split(" ");
 }
+
+// Счетчик элементов нужной длины
+int CounterOfElementsNeedLong (string[] customesrArray, int numbOfNeedLength)
+{
+    int count = 0;
+    for (int i = 0; i < customesrArray.Length; i++)
+    {
+        count++;
+    }
+    return count;
+}
